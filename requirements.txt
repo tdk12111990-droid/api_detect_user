@@ -1,0 +1,27 @@
+# ==========================================
+# Core APIs & Server
+# ==========================================
+fastapi>=0.95.0
+uvicorn>=0.20.0
+requests>=2.28.0
+
+# ==========================================
+# Data Science & Machine Learning
+# ==========================================
+numpy>=1.23.0,<2.0.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+statsmodels>=0.13.0
+joblib>=1.2.0
+
+# Note: TensorFlow on Jetson Orin Nano should be installed using 
+# NVIDIA's official PyTorch/TensorFlow wheels matching your JetPack version.
+# For generic environments, you can uncomment the line below:
+# tensorflow>=2.11.0
+
+# ==========================================
+# Computer Vision & Jetson Orin Nano
+# ==========================================
+opencv-python>=4.6.0
+# Note: pycuda requires a CUDA compiler (nvcc) to be present in PATH.
+pycuda>=2022.1

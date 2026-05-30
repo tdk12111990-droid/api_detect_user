@@ -12,6 +12,6 @@ include/
 .env
 .vscode/
 .idea/
-*.engine
-*.onnx
-*.pt
+# *.engine
+# *.onnx
+# *.pt
